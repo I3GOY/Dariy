@@ -1,0 +1,792 @@
+.pt-sans-caption-regular {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pt-sans-caption-bold {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.caveat-franse {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.la-belle-aurore-regular {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.rubik-kubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+.pt-serif-caption-regular {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pt-serif-caption-regular-italic {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+/* All Fonts: Rubik - La Belle-Aurore - Caveat - PT Sans - PT Sans Caption */
+
+body {
+    margin: 0;
+    background-color: #F3ECE9;
+}
+
+h1, a {
+    font-size: 92px;
+    font-family: "La Belle Aurore", cursive;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin: 0;
+}
+
+h2 {
+    font-size: 64px;
+    visibility: visible;
+    font-family: "Caveat";
+    color: #222222;
+}
+
+
+/* Head */
+.head {
+    width: 100%;
+    height: 225px;
+    background-color: #015366;
+}
+
+.obertka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-name {
+    display: flex; 
+    align-items: center; /* Выравнивание по центру по вертикали */
+    width: 500px;
+    height: 135px;
+    margin: 46px 0 46px 150px;
+}
+
+.head-logo {
+    width: 150px;
+    height: 170px;
+
+    background-image: url("../ico/logo.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 45px;
+    display: inline-block;
+}
+
+.head-title {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+/* contakt */
+.head-contakt {
+    width: 260px;
+    height: 111px;
+    margin: 57px 150px 57px auto;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+.head-phone-num, .head-telegram, .head-email {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 260px;
+    margin-bottom: 19.5px;
+}
+
+.phone-img, .telegram-img, .email-img {
+    width: 23px;
+    height: 23px;
+    margin-left: 5px;
+}
+
+.phone-img {
+    background-image: url("../ico/cont/free-icon-telephone-5037686.png");
+}
+
+.telegram-img {
+    background-image: url("../ico/cont/free-icon-telegram-logo-87413.png");
+}
+
+.email-img {
+    background-image: url("../ico/cont/free-icon-new-email-filled-envelope-60467.png");
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* navigation */
+
+.navigation{
+    width: 100%;
+    height: 70px;
+    background-color: #E5CDBD;
+}
+
+.nav-obertka {
+    width: 76%;
+    height: 38px;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav-ring, .nav-earrings, .nav-bracelets, .nav-pendants, a {
+    font-family: "Rubic";
+    font-weight: 900;
+    font-size: 29px;
+    color: #222222;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-ring {
+    position: relative;
+    left: 20px;
+}
+
+.nav-earrings{
+    position: relative;
+    left: 20px;
+}
+
+.nav-bracelets {
+    position: relative;
+    left: 10px;
+}
+
+.nav-pendants {
+    position: relative;
+    left: 10px;
+}
+
+/* after-nav */
+
+.after-nav {
+    width: 100%;
+    height: 220px;
+    background-color: #015366;
+}
+
+.after-nav-obertka {
+    width: 1432px;
+    height: 128px;
+
+    margin: 0 254px 0 224px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+.ring-img, .earrings-img, .bracelets-img, .pendants-img {
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.ring-img {
+    background-image: url("../ico/after/ring2.png");
+    margin-right: 285px;
+}
+
+.earrings-img {
+    background-image: url("../ico/after/ears.png");
+    margin-right: 300px;
+}
+
+.bracelets-img {
+    background-image: url("../ico/after/braslet.png");
+    margin-right: 305px;
+}
+
+.pendants-img {
+    background-image: url("../ico/after/kylon.png");
+}
+
+/* Container */
+.container{
+    background-color: #f3ece9;
+}
+.txt-actual {
+    font-weight: 300;
+    width: 775px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.daryi {
+    font-family: "La Belle Aurore";
+    display: inline;
+}
+
+.blue-moon {
+    width: 100%;
+    height: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: #015366;
+}
+
+.txt-o {
+    width: 140px;
+    margin: auto;
+}
+
+.input-con {
+    width: 1610px;
+    height: 660px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.in-photo {
+    width: 820px;
+    height: 660px;
+    background-color: #666666;
+    display: inline-block;
+    margin-right: 155px;
+
+    border-radius: 15px 0 0 15px ;
+}
+
+.in-infog-gl {
+    width: 780px;
+    height: 600px !important;
+    opacity: 1 !important;
+    display: inline-block;
+}
+
+.info-h3 h3{
+    font-family: "PT Serif Caption";
+    font-size: 32px;
+    width: 780px;
+    height: 44px;
+    margin: 0 0 50px 0;
+    font-weight: 400;
+    visibility: visible;
+    font-style: normal;
+}
+
+.info-text {
+    font-family: "PT Sans";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    visibility: visible;
+    text-align: justify;
+    width: 780px;
+    height: auto;
+}
+
+/* Slaider */
+.swiper{
+    width: 1300px;
+    height: 100%;
+  }
+  .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background-color: f3ece9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 20px !important; 
+    left: auto;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 20px !important; 
+    right: auto;
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 30px; /* Расстояние от нижней границы контейнера */
+    left: 50%; /* Центрирование пагинации */
+    transform: translateX(-50%); /* Центрирование пагинации */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 15px; /* Ширина точки */
+    height: 15px; /* Высота точки */
+    background-color: rgb(0, 0, 0); /* Цвет неактивной точки */
+    border-radius: 50%; /* Округление точки */
+    margin: 0 40px; /* Отступ между точками */
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: red; /* Цвет активной точки */
+}
+/* slaider-end */
+
+
+
+
+/* Footre */
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background-color: #015366;
+}
+
+.title-ql{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-ql {
+    font-family: "PT Serif Caption";
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    margin: 20px 0 20px 0;
+}
+
+.quick-column {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+
+.column {
+    width: 216px;
+    height: 243px;
+    text-align: left;
+    position: relative;
+    padding: 0 10px;
+}
+
+.column h2 {
+    font-family: "Rubic";
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.column p {
+    font-size: 18px;
+    margin: 10px 0 0 50px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.column::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+hr {
+    width: 85%;
+    color: white;
+    margin: 90px auto 5px auto;
+}
+
+.autors {
+    width: 500px;
+    height: 30px;
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: white;
+    margin: auto;
+}
+
+.autors p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+/* ALBUM RING */
+
+.container-album{
+    width: 84%;
+    height: 1956px;
+    margin: auto;
+    background-color: #f3ece9;
+}
+
+.txt-actual-1 {
+    font-weight: 300;
+    width: 141px;
+    margin: auto;
+    margin-bottom: 55px;
+    display: flex;
+    margin: auto;
+}
+
+/* izdeliya */
+
+.block {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+
+/* Общий стиль для изделий */
+[class^="izdelie-"] {
+    width: 460px;
+    height: 460px;
+    background-color: #D9D9D9;
+    border-radius: 21px;
+    position: relative; /* Для корректного позиционирования информации */
+}
+
+/* Скрываем информацию и задаем начальное состояние */
+[class*="-info"] {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.5s, height 0.5s;
+}
+
+/* Стиль при наведении на изделие */
+[class^="izdelie-"]:hover [class*="-info"] {
+    width: 460px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    background-color: #015366;
+    border-radius: 0 0 21px 21px;
+    padding-top: 25px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s, height 0.5s; /* Плавный переход */
+}
+
+/* Стиль заголовка при наведении */
+[class^="izdelie-"]:hover [class*="title-iz-"] {
+    color: #f0f0f0;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* Стиль текста при наведении */
+[class^="izdelie-"]:hover [class*="text-iz-"] {
+    color: #f0f0f0;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* slaider-album */
+
+.slaider-album {
+    width: 440px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first, .second, .third, .fourth {
+    width: 40px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: #222222;
+    text-align: center;
+}
+
+.first {
+    background-color: #930404;
+    color: #fcfcfc;
+}
+
+.prev-sl {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url("../ico/иконки/слайдер/left.png");
+}
+
+.next-sl {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url("../ico/иконки/слайдер/right.png");
+}
+
+
+
+/*  Izdelie-Information  */
+
+.container-izdelie {
+    width: 100%;
+    height: 1330px;
+    background-color: #F3ECE9;
+}
+
+.izdelie-con {
+    width: 1470px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.ring-1-photo {
+    width: 100%;
+    height: 720px;
+    background-color: #F3ECE9;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.info-text-ring {
+    width: 100%;
+    height: 480px;
+}
+
+.info-izdelie-title-1 {
+    font-size: 72px;
+    font-family: "Caveat";
+    font-weight: 400;
+    margin: auto;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.info-izdelie-text-1 {
+    width: 100%;
+    font-size: 28px;
+    font-family: "PT Sans";
+    font-weight: 400;
+    color: #222222;
+}
+
+.cost {
+    font-size: 48px;
+    font-family: "Ceveat";
+    font-weight: 400;
+    margin: auto;
+    color: #222222;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    text-align: right;
+}
+
+.button-exit {
+    font-family: "Rubic";
+    font-weight: bold;
+    font-size: 26px;
+
+    width: 280px;
+    height: 60px;
+    border-radius: 31px;
+    background-color: #015366;
+    color: #D9D9D9;
+    margin-bottom: 70px;
+    margin: auto;
+}
+
+.button-exit p {
+    font-family: "Rubic";
+    font-weight: bold;
+    font-size: 26px;
+    color: #D9D9D9;
+    text-align: center;
+    margin: 13px 0 15px 0;
+}
+
+.button-exit a {
+    width: 100%;
+}
+
+/************ Language ************/
+
+.lang-eng {
+    width: 200px;
+    height: 70px;
+    background-color: #015366;
+    color: #D9D9D9;
+
+    font-family: "PT Serif Caption";
+    font-size: 22px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+
+    border-radius: 45px 0 0 0;
+}
+
+.lang-eng p {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.lang-eng a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "PT Serif Caption";
+    font-size: 22px;
+}
+
+/* Actual */
+
+.actual {
+    width: 200px;
+    height: 70px;
+    background-color: #7e0202;
+    color: #D9D9D9;
+
+    font-family: "PT Serif Caption";
+    font-size: 22px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+
+    border-radius: 0 45px 0 0;
+}
+
+.actual p {
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+/************* RINGS **************/
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 1120px;
+    height: 610px;
+    padding: 10px; /* Padding inside the block */
+    box-sizing: border-box; /* Include padding and border in the total size */
+}
+.main-image {
+    width: 58%; /* Width of the main image */
+    height: auto;
+    margin-left: 150px;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image fits within the container without overflowing */
+    transition: transform 0.2s ease;
+}
+.main-image:hover {
+    transform: scale(1.2);
+}
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.thumbnail {
+    overflow: hidden;
+    width: 190px; /* Width of the thumbnail */
+    height: 135px; /* Height of the thumbnail */
+    margin-bottom: 11px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+.thumbnail:hover {
+    opacity: 1;
+}
+/************* RINGS **************/
+
+/************* RINGS **************/
+
+/************* RINGS **************/
+
+

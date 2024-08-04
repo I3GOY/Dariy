@@ -1,0 +1,629 @@
+@media (max-width: 1440px) {
+
+    body {
+
+    }
+    /** head **/
+
+    .head {
+        height: 180px;
+    }
+
+    .head-name {
+        display: flex; 
+        align-items: center; /* Выравнивание по центру по вертикали */
+        width: 500px;
+        height: 80px;
+        margin: 46px 0 46px 150px;
+    }
+    
+    .head-logo {
+        width: 133px;
+        height: 133px;
+        border-radius: 90px;
+        background-color: #000;
+        margin-right: 45px;
+        display: inline-block;
+    }
+    
+    h1 {
+        font-size: 76px;
+        font-family: "La Belle Aurore", cursive;
+        color: #FFFFFF;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .head-contakt {
+        height: 110px;
+        font-size: 18px;
+        margin: 40px 150px 30px auto;
+    }
+
+
+
+
+
+
+    h2 {
+        font-size: 52px;
+        visibility: visible;
+        font-family: "Caveat";
+        color: #222222;
+    }
+
+    .after-nav-obertka {
+        width: 75%;
+        margin: auto;
+    }
+
+    .ring-img {
+        background-image: url("../ico/after/ring2.png");
+        margin-right: 130px;
+        margin-left: 20px;
+    }
+    
+    .earrings-img {
+        background-image: url("../ico/after/ears.png");
+        margin-right: 130px;
+    }
+    
+    .bracelets-img {
+        background-image: url("../ico/after/braslet.png");
+        margin-right: 80px;
+    }
+    
+    .pendants-img {
+        margin-left: 60px;
+        background-image: url("../ico/after/kylon.png");
+    }
+    .after-nav-obertka {
+        width: 1150px;
+    }
+
+    .input-con {
+        width: 87.5%;
+        height: 500px;
+    }
+
+    .info-h3 h3{
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .info-text {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .in-infog-gl {
+        width: 47%;
+        height: 500px;
+    }
+
+    .in-photo {
+        width: 45%;
+        height: 500px;
+        margin-right: 120px;
+    }
+
+    .nav-ring, .nav-earrings, .nav-bracelets, .nav-pendants, a {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+
+    .txt-actual {
+        width: fit-content;
+        
+    }
+
+    /* footer */
+
+    .footer {
+        height: 540px;
+    }
+
+    .title-ql {
+        font-size: 30px;
+    }
+
+    .column {
+        width: 25%;
+        height: 180px;
+    }
+
+    .column h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .column p {
+        font-size: 18px;
+    }
+
+    hr {
+        margin: 50px auto 5px auto;
+    }
+
+
+
+    /*** ring-album ***/
+
+    .container-izdelie {
+        height: 1220px;
+        margin-bottom: 50px;
+    }
+
+    [class^="izdelie-"] {
+        width: 350px;
+        height: 350px;
+    }
+
+    .block {
+        height: 375px;
+        margin-bottom: 30px;
+    }
+
+    .container-album{
+        width: 84%;
+        height: auto;
+        padding-bottom: 30px;
+        margin-left: auto;
+    }
+    
+    .slaider-album {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .izdelie-con {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .info-izdelie-text-1 {
+        text-align: justify;
+    }
+
+    .info-text-ring {
+        height: 400px;
+    }
+
+    .cost {
+        margin-top: 10px;
+    }
+
+
+    /******** Phones ********/
+    @media (max-width: 420px) {
+
+        .thumbnails {
+            width: 60px;
+        }
+    }
+    
+    @media (max-width: 420px) {
+
+        .head {
+            height: 120px;
+        }
+
+        .head-logo {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+        }
+        
+
+        .head-title  {
+            height: 110px;
+            font-size: 32px;
+        }
+
+        h1, a {
+            font-size: 48px;
+        }
+        .head-name {
+            width: fit-content;
+            margin: 20px 0 20px 20px;
+        }
+        /**** contakt ***/
+        .head-contakt {
+            width: fit-content;
+            height: 80px;
+            font-size: 14px;
+            margin: auto 10px auto auto;
+        }
+
+        .head-phone-num, .head-telegram, .head-email {
+            width: auto;
+            margin-bottom: 6px;
+        }
+        .phone-img, .telegram-img, .email-img {
+            width: 23px;
+            height: 23px;
+            margin-left: 2px;
+        }
+
+        /* navigation */
+
+        .navigation {
+            height: 35px;
+        }
+
+        .nav-obertka {
+            width: 94%;
+            height: 25px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .nav-ring, .nav-earrings, .nav-bracelets, .nav-pendants, a { 
+            font-weight: 400;
+            font-size: 14px;
+        }
+        
+        .nav-ring {
+            position: relative;
+        }
+        .nav-earrings{
+            position: relative;
+            left: 10px;
+        }
+        .nav-bracelets {
+            position: relative;
+            left: 0px;
+        }
+        
+        .nav-pendants {
+            position: relative;
+            left: -10px;
+        }
+
+        /* after-nav */
+
+        .after-nav {
+            height: 85px;
+        }
+
+        .after-nav-obertka {
+            width: 90%;
+            height: auto;
+            margin: 0 auto 0 auto;
+            padding-top: 9px;
+            padding-bottom: 8px;
+        }
+
+        .after-nav-obertka {
+            width: auto;
+            height: auto;
+            margin: 0;
+        }
+
+        .ring-img, .earrings-img, .bracelets-img, .pendants-img {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+            background-size: contain;
+        }
+
+        .ring-img { 
+            margin-left: 25px;
+            margin-right: 0;
+        }
+        .earrings-img {
+            margin-right: 10px;
+        }
+        .bracelets-img {
+            margin-right: 15px;
+        }
+
+        .pendants-img {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+
+        /* Container */
+
+        .txt-actual {
+            width:fit-content;
+            height: 80px;
+            align-items: center;
+            margin-top: -20px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+
+        .blue-moon {
+            margin: 10px 0 10px 0;
+        }
+
+        .txt-o {
+            width: fit-content;
+        }
+
+        .txt-o h2 {
+            font-size: 32px;
+            margin: 10px 0 20px 0;
+            text-align: center;
+        }
+
+        .input-con {
+            width: 320px; /* Adjusted width for smaller screens */
+            height: 600px; /* Allow height to adjust based on content */
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            margin: auto;
+            margin-bottom: 40px; /* Reduced margin */
+        }
+        
+        .in-photo {
+            width: 100%; /* Full width within container */
+            height: 280px; /* Adjusted height */
+            background-color: #666666;
+            display: block;
+            margin: 0 auto 15px auto; /* Center and space below */
+            border-radius: 15px; /* Full border radius */
+        }
+        
+        .in-infog-gl {
+            width: 100%; /* Full width within container */
+            height: fit-content; /* Allow height to adjust based on content */
+            opacity: 1 !important;
+            display: block;
+            height: 300px !important;
+        }
+        
+        .info-h3 h3 {
+            width: fit-content;
+            font-family: "PT Serif Caption";
+            font-size: 18px; /* Adjusted font size */
+            width: 100%; /* Full width within container */
+            margin: 20px 0 5px 0; /* Reduced margin */
+            font-weight: 700;
+            visibility: visible;
+            font-style: normal;
+        }
+        
+        .info-text {
+            font-family: "PT Sans";
+            font-weight: 300;
+            font-style: normal;
+            font-size: 16px; /* Adjusted font size */
+            visibility: visible;
+            text-align: justify;
+            width: 100%; /* Full width within container */
+            height: 300px;
+        }
+
+
+
+        /* Slaider */
+
+        .swiper{
+            width: 90%;
+            height: auto;
+          }
+
+        .swiper-button-next, .swiper-button-prev {
+            visibility:hidden;
+        }
+
+        .swiper-slide img{
+            width: 90%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 15px;
+          }
+
+        /* slaider-end */
+        
+        /* Footre */
+
+        .footer {
+            height: fit-content;
+        }
+        .title-ql {
+            font-size: 26px;
+        }
+
+        .quick-column {
+            width: 90%;
+        }
+
+        .column {
+            height: 120px;
+            width: 80px;
+        }
+
+        .column h2 {
+            font-size: 16px;
+            height: 8px;
+            margin-left: 5px;
+        }
+        .column p {
+            font-size: 12px;
+            margin: 10px 0 0 5px;
+        }
+
+        hr {
+            width: 90%;
+            color: white;
+            margin: 40px auto 5px auto;
+        }
+        .autors {
+            width: fit-content;
+            margin: auto;
+        }
+        .autors p {
+            font-size: 10px;
+        }
+    
+
+
+
+
+    /* eng-ua */
+
+    .lang-eng {
+        width: 65%;
+        height: 50px;
+        font-size: 18px !important;
+        background-color: rgba(1, 83, 102, 0.5);
+        border-radius: 0;
+    }
+    .lang-eng p {
+
+    }
+    .lang-eng a {
+        font-size: 18px !important;
+    }
+
+    
+    /* ******************** ALBUM ***************** */
+
+
+    .container-album {
+        width: 92%;
+        display: block;
+        justify-content: center;
+    }
+    .txt-actual-1 {
+        width: fit-content;
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 0px;
+    }
+
+
+    .slaider-album {
+        margin: auto;
+        align-items: center;
+        width: 90%;
+        height: 30px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .prev-sl, .next-sl{
+        width: 30px;
+        height: 30px;
+    }
+    .first, .second, .third, .fourth {
+        width: 30px;
+        height: 30px;
+    }
+    .block {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    [class^="izdelie-"] {
+        margin-left: 14px;
+        width: 350px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    [class^="izdelie-"]:hover [class*="-info"] {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        bottom: 0;
+        background-color: #015366;
+        border-radius: 0 0 21px 21px;
+        padding-top: 25px;
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.5s, height 0.5s; /* Плавный переход */
+    }
+
+    /* IZDELIYA INFO */
+
+    .container-izdelie {
+        width: 100%;
+        height: 760px;
+    }
+    .izdelie-con {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .info-text-ring {
+        height: fit-content;
+    }
+
+    .ring-1-photo{
+        height: 350px;
+    }
+
+    .info-izdelie-title-1 {
+        margin-bottom: 0;
+    }
+
+    .info-izdelie-text-1 {
+    font-size: 16px;
+
+    }
+
+    .cost {
+        font-size: 24px;
+    }
+
+    .button-exit { 
+        height: 40px;
+        align-items: center;
+    }
+
+    .button-exit p{
+        margin: 5px 0 0 0;
+        font-size: 22px;
+    }
+
+    .actual {
+        height: 45px;
+        width: 35%;
+        font-size: 18px !important;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: #7e020291;
+        border-radius: 0;
+        padding-bottom: 5px;
+    }
+
+    .main-image {
+        margin-left: 10px;
+    }
+    .thumbnail {
+        width: 100%;
+        height: 60px;
+    }
+    .main-image:hover {
+        transform: scale(1.5);
+    }
+    .container-izdelie {
+        margin-bottom: 0;
+    }
+
+
+}
+@media (max-width: 375px) {
+    .slaider-album {
+
+        padding-left: 30px;
+    }
+    .container-album {
+        margin-left: 0;
+        width: 92%;
+        display: block;
+        justify-content: center;
+    }
+    .thumbnails {
+        width: 60px;
+    }
+}
+
+}
