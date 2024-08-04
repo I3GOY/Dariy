@@ -513,7 +513,7 @@ hr {
 [class^="izdelie-"] {
     width: 460px;
     height: 460px;
-    background-color: #D9D9D9;
+    background-color: #979797;
     border-radius: 21px;
     position: relative; /* Для корректного позиционирования информации */
 }
